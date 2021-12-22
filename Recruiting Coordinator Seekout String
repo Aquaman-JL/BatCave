@@ -1,0 +1,15 @@
+cur_title:("Talent Acquisition Coordinator" OR "Recruiting Coordinator" OR "Talent Engagement Advisor" OR "People Coordinator" OR "Talent Program Coordinator" OR "Recruiting Representative" OR "Human Resource* Coordinator")
+
+NOT
+
+cur_title("Senior" OR VP OR Vice OR Head OR Director OR Manager)
+
+NOT
+
+cur_company:("AF Group" OR "Capital Insurance Group" OR "Embroker" OR "First Chicago" OR "Frankenmuth Mutual" OR "Gabriel, Roeder, Smith & Company" OR "GAINSCO" OR "Great West Casualty Company" OR "Greenlight Re" OR "Hippo Insurance" OR "Homesite" OR "Markel" OR "Michigan Farm Bureau" OR "Milliman" OR "N&D Group" OR "Oliver Wyman" OR "Pinnacle Actuarial Resources" OR "Berkley" OR "Ryan Specialty Group" OR "Texas Farm Bureau" OR "The Hanover" OR "PlanGap" OR "Westfield" OR "Willis Towers Watson" OR "Root" OR "Coherent" OR "Noblr" OR "Everest Global Services" OR "Arch Re" OR "iptiQ" OR "Velocity Risk Underwriters" OR "Pure" OR "State Street" OR "American Family" OR "Swiss Re" OR "Acadia Insurance" OR "Admiral Insurance" OR "Carolina Casualty" OR "Continental Western Group" OR "Key Risk Insurance" OR "Nautilus Insurance Group" OR "Preferred Employers Insurance" OR "Union Standard" OR "Verus Specialty Insurance" OR "Vela Insurance Services" OR "w / r / b underwriting" OR "W.R. Berkley" OR "Gemini Transportation Underwriters" OR "Midwest Employers Casualty" OR "Apple" OR "Microsoft" OR "Facebook" OR "Netflix" OR "Uber" OR "Lyft" OR "Google" OR "LinkedIn")
+
+AND 
+
+(positions/description:(Google OR Calendly OR Slack OR Zoom OR Microsoft OR Teams OR ATS OR CRM) OR summary:(Google OR Calendly OR Slack OR Zoom OR Microsoft OR Teams OR ATS OR CRM))
+
+Country: United States; State: Texas, Wyoming, Alaska, Florida, Tennessee, Nevada, New Hampshire, South Dakota, Washington, Maryland; Industry: Computer & Internet, Financial Services, Insurance, HR & Recruiting; Years In Company: < 10; Years Of Experience: < 12
